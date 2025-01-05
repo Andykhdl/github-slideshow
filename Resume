@@ -1,0 +1,112 @@
+\documentclass[pastel]{simplehipstercv}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+\title{Anmol Khandelwal CV}
+\author{Anmol Khandelwal}
+\date{January 2025}
+
+\pagestyle{empty}
+\begin{document}
+
+\thispagestyle{empty}
+
+\simpleheader{headercolour}{Anmol}{Khandelwal}{}{white}
+
+\vspace{8em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.25}[0.7] % Adjusted column ratio for better alignment
+\begin{paracol}{2}
+\hbadness5000
+
+% Sidebar
+{\setasidefontcolour
+\flushright
+
+\begin{center}
+    \roundpic{WhatsApp Image.jpeg} % Replace with your photo file
+\end{center}
+
+\bg{cvgreen}{white}{Contact} \\[0.5em]
+anmolakkhdl@gmail.com \\ 
++91 94110 06893 \\ 
+linkedin.com/in/anmol-khdl \\ 
+github.com/Andykhdl \\
+
+\bigskip
+\bigskip
+
+\bg{cvgreen}{white}{Skills} \\[0.5em]
+\textbf{Programming Languages:} Python, C++, C, SQL, R, PL/SQL \\[0.2em]
+\textbf \\
+\textbf{Tools:} MS Excel, Tableau, Power BI, Linux \\[0.2em]
+\textbf \\
+\textbf{Libraries:} MySQL, Pandas, Sklearn, Matplotlib, PyTorch \\[0.2em]
+\textbf \\
+\textbf{Soft Skills:} Leadership, Analytical Thinking, Communication \\
+
+\bigskip
+\bigskip
+
+\bg{cvgreen}{white}{Certifications} \\[0.5em]
+Cyber Security (Technex)\\ 
+Data Analysis (Google)\\ 
+Intermediate SQL (HackerRank) \\
+
+\bigskip
+\bigskip
+
+\bg{cvgreen}{white}{Interests} \\[0.5em]
+Data Analytics, Business Strategy, Programming \\
+
+}
+
+% Main Content
+\switchcolumn
+\vspace{1em}
+
+\section*{Summary}
+Equipped with a strong foundation in business principles, exceptional analytical and problem-solving abilities, and a passion for fostering growth and innovation. Dedicated to delivering results and contributing value to organizational success.
+
+\vspace{1em}
+
+\section*{Education}
+\textbf{B.Tech - Computer Science and Business Systems} \\
+SRM Institute of Science and Technology, Chennai TN \\
+\textit{Sept 2020 – Sept 2024 | CGPA: 7.89} \\[0.5em]
+
+\textbf{CBSE High School Diploma} \\
+Shri Gulab Rai Montessori School, Bareilly UP \\
+\textit{June 2018 – April 2020 | 88.4\%} \\
+
+\vspace{1em}
+
+\section*{Experience}
+\textbf{Business Operations Executive} \\
+MyCaptain, Bangalore Karnataka \\
+\textit{Dec 2023 – Sept 2024} \\
+- Created and maintained sales dashboards and reports using Salesforce and Excel. \\
+- Developed sales forecasts tracking KPIs such as conversion rates and pipeline status. \\[0.5em]
+
+\textbf{Public Relations Intern} \\
+Deeva, Chennai TN \\
+\textit{Dec 2021 – Jan 2022} \\
+- Conducted research to enhance the public image of the company. \\
+- Created audit reports that facilitated investment leads. \\
+
+\vspace{1em}
+
+\section*{Projects}
+\textbf{Health Management System} \\
+- Spearheaded the development of a system with features like appointment booking and patient history. \\[0.5em]
+
+\textbf{Jarvis - Virtual Voice Assistant} \\
+- Built a virtual assistant with Text-to-Speech and Speech-to-Text capabilities (\textless 5\% error rate). \\[0.5em]
+
+\textbf{Macroeconomics Trend Prediction} \\
+- Developed models for forecasting trends using advanced analytics. \\
+
+\end{paracol}
+\end{document}
